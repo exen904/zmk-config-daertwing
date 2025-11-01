@@ -10,6 +10,8 @@
 #include <dt-bindings/pinctrl/rpi-pico-rp2040-pinctrl.h>
 
 
+#include "daertwing-layouts.dtsi"
+
 / {
     model = "daertwing";
 	compatible = "raspberrypi,rp2040";
@@ -21,7 +23,7 @@
         zephyr,code-partition = &code_partition;
 
         zmk,kscan = &kscan0;
-        zmk,matrix-transform = &default_transform;
+        //zmk,matrix-transform = &default_transform;
     };
 
      xtal_clk: xtal-clk {
@@ -61,7 +63,7 @@
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
-        //wakeup-source;
+        wakeup-source;
         row-gpios
 		= <&gpio0 25 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&gpio0 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
