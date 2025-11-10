@@ -80,6 +80,8 @@ combo_##NAME { \
         // COMBO(ross, &sk RSFT, 16 18)
         // COMBO(caps, &caps_word, 13 16)
         // COMBO(capslock, &kp CAPSLOCK, 1 8)
+/* Studio Unlock */
+        COMBO(studiounlock, &studio_unlock, 9 19)
     };
 };
 
