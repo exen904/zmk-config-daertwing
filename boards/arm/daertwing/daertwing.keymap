@@ -112,7 +112,7 @@ combo_##NAME { \
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32 33>;
         };
 
-        my_lt: my_layer_taps {
+/*         my_lt: my_layer_taps {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
