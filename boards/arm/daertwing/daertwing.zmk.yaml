@@ -6,7 +6,7 @@ arch: arm
 features:
   - keys
   - encoder
-  - studio
+#  - studio
 outputs:
   - usb
 url: https://git.clacktal.es/apfel/daertwing
