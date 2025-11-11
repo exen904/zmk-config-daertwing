@@ -66,7 +66,7 @@ combo_##NAME { \
         COMBO(minus, &kp DE_MINUS, 17 18)
         SLOWCOMBO(underscore, &kp DE_UNDER, 16 17 18)
         SLOWCOMBO(delete, &kp DEL, 20 21)
-        SLOWCOMBO(backslash, &kp DE_BSLH, 26, 27)
+        SLOWCOMBO(backslash, &kp DE_BSLH, 26 27)
         COMBO(equal, &kp DE_EQUAL, 27 28)
         SLOWCOMBO(questionmark, &kp DE_QMARK, 28 29)
 /* whitespace etc */
