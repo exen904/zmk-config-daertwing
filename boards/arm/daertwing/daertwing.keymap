@@ -64,7 +64,7 @@ combo_##NAME { \
         COMBO(pipe, &kp DE_PIPE, 6 7)
         COMBO(singlequote, &kp DE_SQT, 7 8)
         COMBO(doublequote, &kp DE_DQT, 8 9)
-        COMBO(symlayer, &sl SYM 10 11)
+        COMBO(symlayer, &sl SYM, 10 11)
         COMBO(plus, &kp DE_PLUS, 16 17)
         COMBO(minus, &kp DE_MINUS, 17 18)
         SLOWCOMBO(underscore, &kp DE_UNDER, 16 17 18)
