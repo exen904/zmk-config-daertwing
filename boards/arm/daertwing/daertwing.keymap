@@ -69,6 +69,7 @@ combo_##NAME { \
         SLOWCOMBO(backslash, &kp DE_BSLH, 26 27)
         COMBO(equal, &kp DE_EQUAL, 27 28)
         SLOWCOMBO(questionmark, &kp DE_QMARK, 28 29)
+        SLOWCOMBO(enter, &kp ENTER, 15 17)
 /* whitespace etc */
         // COMBO(tab, &kp TAB, 5 6)
         // COMBO(esc, &kp ESC, 22 23)
@@ -80,7 +81,6 @@ combo_##NAME { \
 /* special shifting */
         // COMBO(loss, &sk LSFT, 11 13)
         // COMBO(ross, &sk RSFT, 16 18)
-        // COMBO(caps, &caps_word, 13 16)
         // COMBO(capslock, &kp CAPSLOCK, 1 8)
 /* Studio Unlock */
         COMBO(studiounlock, &studio_unlock, 9 19)
