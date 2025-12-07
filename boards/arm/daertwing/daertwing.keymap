@@ -151,7 +151,7 @@ combo_##NAME { \
                 &kp DE_Z       &kp X          &kp C          &kp V          &kp B                      &kp N            &kp M          &kp DE_COMMA   &kp DE_DOT     &kp DE_FSLH
                                                              &my_lt NUM TAB &kp SPACE    &kp C_MUTE    &kp ENTER        &my_lt SYM BSPC
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP >;
         };
         numbers {
             bindings = <
@@ -160,7 +160,7 @@ combo_##NAME { \
                 &kp DEL      &kp PAGE_UP     &kp LC(C)        &kp LC(V)          &kp DE_LPAR            &kp DE_RPAR         &kp N1       &kp N2       &kp N3         &kp DOT 
                                                               &trans             &trans        &trans   &kp N0              &kp BSPC                                 
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
         };
         symbols {
             bindings = <
@@ -169,7 +169,7 @@ combo_##NAME { \
                 &trans          &trans        &kp LC(C)      &kp LC(V)         &kp C_MUTE           &kp C_VOL_DN    &kp C_VOL_UP    &kp C_PREVIOUS  &kp C_NEXT        &kp BACKSLASH
                                                              &mo 3             &trans       &kp PRINTSCREEN        &trans      &trans                                                
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
     };
 };
