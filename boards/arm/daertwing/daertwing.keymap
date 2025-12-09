@@ -34,7 +34,7 @@ combo_##NAME { \
 };
 #define SLOWCOMBO(NAME, BINDINGS, KEYPOS) \
 combo_##NAME { \
-    timeout-ms = <40>; \
+    timeout-ms = <60>; \
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
 };
@@ -61,7 +61,7 @@ combo_##NAME { \
         SLOWCOMBO(AMPS, &kp DE_AMPS, 2 3)
         COMBO(CAPS, &caps_word, 10 19)
         COMBO(shiftablesch, &macro_shiftable_sch, 1 3)
-        COMBO(pipe, &kp DE_PIPE, 6 7)
+        SLOWCOMBO(pipe, &kp DE_PIPE, 6 7)
         COMBO(singlequote, &kp DE_SQT, 7 8)
         COMBO(doublequote, &kp DE_DQT, 8 9)
         COMBO(symlayer, &sl SYM, 10 11)
@@ -70,7 +70,7 @@ combo_##NAME { \
         SLOWCOMBO(underscore, &kp DE_UNDER, 16 17 18)
         SLOWCOMBO(delete, &kp DEL, 20 21)
         SLOWCOMBO(backslash, &kp DE_BSLH, 26 27)
-        COMBO(equal, &kp DE_EQUAL, 27 28)
+        SLOWCOMBO(equal, &kp DE_EQUAL, 27 28)
         SLOWCOMBO(questionmark, &kp DE_QMARK, 28 29)
         SLOWCOMBO(enter, &kp ENTER, 16 18)
 /* whitespace etc */
