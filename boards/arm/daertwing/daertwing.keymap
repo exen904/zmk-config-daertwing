@@ -58,7 +58,7 @@ combo_##NAME { \
 /* usually on base layer */
         COMBO(boot, &bootloader, 0 9)
         COMBO(ESC, &kp ESC, 0 1)
-        SLOWCOMBO(AMPS, &kp DE_AMPS, 2 3)
+        SLOWCOMBO(AMPS, &kp DE_AMPS, 3 13)
         COMBO(CAPS, &caps_word, 10 19)
         COMBO(shiftablesch, &macro_shiftable_sch, 1 3)
         SLOWCOMBO(pipe, &kp DE_PIPE, 6 7)
